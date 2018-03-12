@@ -11,6 +11,10 @@ body {
 	margin: 0 auto;
 	overflow: hidden;
 }
+a:focus {
+	color: #fff;
+	text-decoration: none;
+}
 
 
 /*grid*/
@@ -101,10 +105,6 @@ header>nav>ul>li .active {
 }
 header>nav>ul>li>a:hover {
 	color: #ED145B;
-	text-decoration: none;
-}
-header>nav>ul>li>a:focus {
-	color: #fff;
 	text-decoration: none;
 }
 header>nav>label>.fa-bars {
