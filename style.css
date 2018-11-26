@@ -15,6 +15,14 @@ a:focus {
 	color: #fff;
 	text-decoration: none;
 }
+.line>p:after {
+	content: "";
+	border: 1px solid #ED145B;
+	display: block;
+	margin: 0 520px;
+	width: 200px;	
+	background-color: #ED145B;
+}
 
 
 /*grid*/
@@ -142,13 +150,7 @@ header>nav input, label {
 	font-size: 41px;
 	margin-bottom: 0;
 }
-.hero>.container>.row>.col-12>.line>p:after {
-	content: "";
-	border: 1px solid #ED145B;
-	display: block;
-	margin: 0 520px;
-	width: 200px;	
-}
+
 .hero>.container>.row>.col-12>h1>span {
 	font-weight: 700;
 	
@@ -206,12 +208,9 @@ header>nav input, label {
 	margin: 34px 0 24px 0;
 }
 .about>.container>.text>.line>p:after {
-	content: "";
-	border: 1px solid #ED145B;
-	display: block;
 	margin: 0;
-	width: 200px;
 }
+
 .about>.container>.text>p {
 	margin-bottom: 34px;
 	line-height: 32px;
@@ -285,13 +284,7 @@ header>nav input, label {
 	justify-content: center;
 	margin: 34px 0 24px 0;
 }
-.our-services>.container>.row>.col-12>.line>p:after {
-	content: "";
-	border: 1px solid #ED145B;
-	display: block;
-	margin: 0;
-	width: 200px;
-}
+
 .our-services>.container>.row>.col-12>p {
 	margin-bottom: 16px;
 	padding: 0 220px;
@@ -407,13 +400,7 @@ header>nav input, label {
 	justify-content: center;
 	margin: 34px 0 24px 0;
 }
-.prices>.container>.row>.col-12>.line>p:after {
-	content: "";
-	border: 1px solid #ED145B;
-	display: block;
-	margin: 0;
-	width: 200px;
-}
+
 .prices>.container>.row>.col-12>p {
 	margin-bottom: 16px;
 	padding: 0 220px;
@@ -590,13 +577,7 @@ header>nav input, label {
 	justify-content: center;
 	margin: 34px 0 24px 0;
 }
-.gallery>.container>.updates>.col-12>.line>p:after {
-	content: "";
-	border: 1px solid #ED145B;
-	display: block;
-	margin: 0;
-	width: 200px;
-}
+
 .gallery>.container>.updates>.col-12>p {
 	margin-bottom: 16px;
 	padding: 0 220px;
@@ -723,13 +704,7 @@ header>nav input, label {
 	justify-content: center;
 	margin: 34px 0 24px 0;
 }
-.add-info-2>.container>.row>.col-12>.line>p:after {
-	content: "";
-	border: 1px solid #ED145B;
-	display: block;
-	margin: 0;
-	width: 200px;
-}
+
 .add-info-2>.container>.row>.col-12>h2 {
 	margin-top: 16px;
 	margin-bottom: 0;
@@ -791,13 +766,7 @@ header>nav input, label {
 	justify-content: flex-start;
 	margin: 34px 0 24px 0;
 }
-.download>.container>.text>.line>p:after {
-	content: "";
-	border: 1px solid #ED145B;
-	display: block;
-	margin: 0;
-	width: 200px;
-}
+
 .download>.container>.text>p {
 	margin-bottom: 34px;
 	line-height: 32px;
